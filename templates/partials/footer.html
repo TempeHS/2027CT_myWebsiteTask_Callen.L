@@ -5,9 +5,6 @@
 </style>
 
 <!-- Footer be added soon -->
-<hr>
-<p> THE FOOTER SECTION IS HERE </p>
-<hr>
 
 <!-- REBUILDING THE FOOTER FROM IM NOT SURE WHAT THIS IS :DDD -->
 <!--
@@ -43,8 +40,6 @@
                 class="mx-2 text-decoration-none text-dark">YouTube</a>
 -->
 <hr>
-<hr>
-<hr>
 <footer class="bg-white py-5 border-top">
     <div class="container">
         <!-- The footer brand is going to here later :D -->
@@ -61,13 +56,14 @@
         <div>
             <div class="col-md-12">
                 <nav class="d-flex justify-content-front gap-2" aria-label="Footer Navigation">
-                    <a href="/" class="text-decoration-none text-secondary">Terms of Service</a>
+                    <a href="{{ url_for('terms_and_conditions') }}" class="text-decoration-none text-secondary">Terms of
+                        Service</a>
                     <div class="vr text-muted d-none d-sm-block" aria-hidden="true"></div>
-                    <a href="/" class="text-decoration-none text-secondary">Support</a>
+                    <a href="{{ url_for('support') }}" class="text-decoration-none text-secondary">Support</a>
                     <div class="vr text-muted d-none d-sm-block" aria-hidden="true"></div>
-                    <a href="/" class="text-decoration-none text-secondary">About Us</a>
+                    <a href="{{ url_for('about_us') }}" class="text-decoration-none text-secondary">About Us</a>
                     <div class="vr text-muted d-none d-sm-block" aria-hidden="true"></div>
-                    <a href="/" class="text-decoration-none text-secondary">Site Map</a>
+                    <a href="{{ url_for('site_map') }}" class="text-decoration-none text-secondary">Site Map</a>
                 </nav>
             </div>
         </div>
@@ -88,19 +84,3 @@
         <!--CODE BREAK ===============================================-->
     </div>
 </footer>
-
-
-<hr>
-
-<div class="row">
-    <div class="col-12">
-        <p class="small text-muted mb-0">
-            This material is unofficial and is not endorsed by Supercell. For more information see
-            Supercell's
-            Fan Content Policy:
-            <a href="https://www.supercell.com/fan-content-policy" target="_blank" rel="noopener noreferrer"
-                class="text-decoration-none text-primary">
-                www.supercell.com/fan-content-policy ↖</a>
-        </p>
-    </div>
-</div>
